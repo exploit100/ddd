@@ -1,41 +1,226 @@
-# Compiled Lua sources
-luac.out
+-- Gui to Lua
+-- Version: 3.2
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+-- Instances:
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+local Keygui = Instance.new("ScreenGui")
+local Mainexploit = Instance.new("Frame")
+local Namegui = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local blue = Instance.new("Frame")
+local Icon = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Bluev2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local fly = Instance.new("TextButton")
+local rwach = Instance.new("TextButton")
+local tp = Instance.new("TextButton")
+local bank = Instance.new("TextButton")
+local taco = Instance.new("TextButton")
+local Login = Instance.new("Frame")
+local CopyTextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local submin = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local dragger = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
 
-# Precompiled Headers
-*.gch
-*.pch
+--Properties:
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+Keygui.Name = "Key gui"
+Keygui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+Mainexploit.Name = "Main exploit"
+Mainexploit.Parent = Keygui
+Mainexploit.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+Mainexploit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mainexploit.BorderSizePixel = 5
+Mainexploit.Position = UDim2.new(0.291077793, 0, 0.150920242, 0)
+Mainexploit.Size = UDim2.new(0, 641, 0, 473)
+Mainexploit.Visible = false
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+Namegui.Name = "Namegui"
+Namegui.Parent = Mainexploit
+Namegui.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+Namegui.BorderColor3 = Color3.fromRGB(11, 11, 11)
+Namegui.BorderSizePixel = 0
+Namegui.Position = UDim2.new(0.0114958435, 0, 0.0195024088, 0)
+Namegui.Size = UDim2.new(0, 234, 0, 57)
+Namegui.Font = Enum.Font.LuckiestGuy
+Namegui.Text = "NN Exploit"
+Namegui.TextColor3 = Color3.fromRGB(255, 255, 255)
+Namegui.TextSize = 40.000
 
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = Mainexploit
+
+blue.Name = "blue"
+blue.Parent = Mainexploit
+blue.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+blue.BackgroundTransparency = 0.250
+blue.BorderSizePixel = 0
+blue.Position = UDim2.new(0.000300795713, 0, 0.118524335, 0)
+blue.Size = UDim2.new(0, 640, 0, 4)
+
+Icon.Name = "Icon"
+Icon.Parent = Mainexploit
+Icon.BackgroundTransparency = 1.000
+Icon.Position = UDim2.new(0.912999988, 0, 0.00999999978, 0)
+Icon.Size = UDim2.new(0.0734196678, 2, 0.0947936028, 2)
+Icon.Image = "rbxassetid://7072725208"
+
+UIAspectRatioConstraint.Parent = Icon
+
+Bluev2.Name = "Bluev2"
+Bluev2.Parent = Mainexploit
+Bluev2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Bluev2.BackgroundTransparency = 0.250
+Bluev2.BorderSizePixel = 0
+Bluev2.Position = UDim2.new(0.779999971, 0, 0.126000002, 0)
+Bluev2.Size = UDim2.new(0, 4, 0, 412)
+
+TextLabel.Parent = Mainexploit
+TextLabel.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.795151532, 0, 0.163454771, 0)
+TextLabel.Size = UDim2.new(0, 123, 0, 28)
+TextLabel.Font = Enum.Font.DenkOne
+TextLabel.Text = "TP PLACE"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 26.000
+
+fly.Name = "fly"
+fly.Parent = Mainexploit
+fly.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fly.BorderSizePixel = 2
+fly.Position = UDim2.new(0.0499219969, 0, 0.190274835, 0)
+fly.Size = UDim2.new(0, 87, 0, 45)
+fly.Font = Enum.Font.Antique
+fly.Text = "Fly [X]"
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextSize = 28.000
+
+rwach.Name = "rwach"
+rwach.Parent = Mainexploit
+rwach.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+rwach.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rwach.BorderSizePixel = 2
+rwach.Position = UDim2.new(0.219968796, 0, 0.190274835, 0)
+rwach.Size = UDim2.new(0, 81, 0, 45)
+rwach.Font = Enum.Font.Antique
+rwach.Text = "Reach"
+rwach.TextColor3 = Color3.fromRGB(255, 255, 255)
+rwach.TextSize = 28.000
+
+tp.Name = "tp"
+tp.Parent = Mainexploit
+tp.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+tp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp.BorderSizePixel = 2
+tp.Position = UDim2.new(0.375975043, 0, 0.190274835, 0)
+tp.Size = UDim2.new(0, 81, 0, 45)
+tp.Font = Enum.Font.Antique
+tp.Text = "Tp [Q]"
+tp.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp.TextSize = 28.000
+
+bank.Name = "bank"
+bank.Parent = Mainexploit
+bank.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+bank.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bank.BorderSizePixel = 2
+bank.Position = UDim2.new(0.826833069, 0, 0.285412252, 0)
+bank.Size = UDim2.new(0, 81, 0, 45)
+bank.Font = Enum.Font.Antique
+bank.Text = "Bank"
+bank.TextColor3 = Color3.fromRGB(255, 255, 255)
+bank.TextSize = 28.000
+
+taco.Name = "taco"
+taco.Parent = Mainexploit
+taco.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+taco.BorderColor3 = Color3.fromRGB(0, 0, 0)
+taco.BorderSizePixel = 2
+taco.Position = UDim2.new(0.826833069, 0, 0.416490495, 0)
+taco.Size = UDim2.new(0, 81, 0, 45)
+taco.Font = Enum.Font.Antique
+taco.Text = "Bank"
+taco.TextColor3 = Color3.fromRGB(255, 255, 255)
+taco.TextSize = 28.000
+
+Login.Name = "Login"
+Login.Parent = Keygui
+Login.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Login.Position = UDim2.new(0.389192432, 0, 0.287116557, 0)
+Login.Size = UDim2.new(0, 285, 0, 268)
+
+CopyTextButton.Name = "Copy TextButton"
+CopyTextButton.Parent = Login
+CopyTextButton.BackgroundColor3 = Color3.fromRGB(129, 13, 30)
+CopyTextButton.BorderSizePixel = 0
+CopyTextButton.Position = UDim2.new(0.158291966, 0, 0.819871128, 0)
+CopyTextButton.Size = UDim2.new(0, 187, 0, 27)
+CopyTextButton.Font = Enum.Font.FredokaOne
+CopyTextButton.Text = "Get key"
+CopyTextButton.TextColor3 = Color3.fromRGB(254, 254, 254)
+CopyTextButton.TextSize = 40.000
+CopyTextButton.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {Title = "!Copied Link!", Text = "Thanks For Using My Exploit<3" })
+	wait(1)
+	setclipboard("https://pastebin.com/StLvSe2A")
+end)
+UICorner_2.Parent = CopyTextButton
+
+UICorner_3.Parent = Login
+
+TextBox.Parent = Login
+TextBox.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.100827545, 0, 0.3599087, 0)
+TextBox.Size = UDim2.new(0, 218, 0, 50)
+TextBox.Font = Enum.Font.FredokaOne
+TextBox.Text = "Put key here"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 30.000
+
+submin.Name = "submin"
+submin.Parent = Login
+submin.BackgroundColor3 = Color3.fromRGB(129, 13, 30)
+submin.BorderSizePixel = 0
+submin.Position = UDim2.new(0.172327042, 0, 0.594088256, 0)
+submin.Size = UDim2.new(0, 187, 0, 27)
+submin.Font = Enum.Font.FredokaOne
+submin.Text = "Submit"
+submin.TextColor3 = Color3.fromRGB(254, 254, 254)
+submin.TextSize = 40.000
+submin.MouseButton1Click:Connect(function()
+	if Check.Text == "Key" then 
+		KeyLogin.Visble = false 
+		wait(0.5)
+		MainFrame.Visble = true
+	end
+end)
+
+UICorner_4.Parent = submin
+
+dragger.Name = "dragger"
+dragger.Parent = Login
+dragger.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+dragger.BorderSizePixel = 0
+dragger.Size = UDim2.new(0, 285, 0, 46)
+
+UICorner_5.Parent = dragger
+
+TextLabel_2.Parent = Login
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.162951499, 0, 0.262594998, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 26)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "LOGIN"
+TextLabel_2.TextColor3 = Color3.fromRGB(243, 243, 243)
+TextLabel_2.TextSize = 38.000
